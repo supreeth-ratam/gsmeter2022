@@ -1,0 +1,17 @@
+.footer-container{
+    margin-left: 25rem;
+    padding: 3rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 2rem;
+}
+.footer-image{
+    height: 5rem;
+}
+.heading{
+    font-family: 'Oswald',sans-serif;
+    font-style: normal;
+    
+}

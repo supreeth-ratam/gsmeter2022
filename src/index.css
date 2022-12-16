@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500&family=Quattrocento+Sans:wght@400;700&family=Reem+Kufi:wght@400;500;700&display=swap');
+
+:root{
+  --background-primary:#FBF7F4;
+  --background-secondary:#FBF7F4;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  background-color: var(--background-primary);
+  font-size: 1.6rem;
+  font-family: 'Lato', sans-serif;
+  line-height: 1.7;
+}
+.navbar{
+  display: none;
+  background-color: var(--background-primary) !important;
+}
+.container--main{
+  margin-left:26rem;
+  margin-top: 4rem;
+  margin-right: 3rem;
+  background-color: #fff;
+  padding: 2rem 4rem;
+  min-height: 100vh;
+}
+
+.page-title{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 3.6rem;
+  margin-bottom: 1.5rem;
+}
+
+.main-title{
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 600;
+}
+
+.sub-heading{
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.manifesto-points{
+  font-family: 'Quattrocento Sans', sans-serif;
+  list-style: none;
+  font-size: 2rem;
+  font-weight: 600;
+}
+.indicators-container{
+  display: flex;
+  font-style: "Reem Kufi",sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  gap: 1rem;
+  padding: .5rem;
+  flex-wrap: wrap;
+  background-color: #FBF7F4;
+}
+.green{
+  color: #2BC48A;
+  font-size: 2rem;
+}
+.yellow{
+  color: #FFCC66;
+  font-size: 2rem;
+}
+.red{
+  color: #FF470C;
+  font-size: 2rem;
+}
+@media only screen and (max-width: 780px) {
+  .container--main{
+    margin-left:0rem;
+    margin-right: 0;
+    margin-top: 6rem;
+  }
+  .navbar{
+    display: flex;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container--main{
+    padding: 2rem;
+  }
+  
+}

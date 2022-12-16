@@ -1,0 +1,56 @@
+:root {
+    --background-primary: #FBF7F4;
+    --background-secondary: #FBF7F4;
+}
+
+.image-container {
+    background-color: var(--background-primary);
+    border: 1px solid #c5c1bd;
+    min-height: 20rem;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 3rem;
+}
+
+.image-container__image-box {
+    height: 20rem;
+    padding: 2rem;
+}
+
+.image_container__text-box {
+    padding: 2rem 2rem;
+    position: relative;
+}
+
+.main-text--name {
+    display: block;
+    font-size: 2.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'oswald', sans-serif;
+}
+.main-text--post{
+    color: #000;
+    font-size: 2rem;
+    font-family: 'oswald',sans-serif;
+}
+.main-text--link{
+    color: #000;
+    display: inline-block;
+    text-align: end;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 1.8rem;
+    transform: all .5sec;
+    font-weight: 600;
+}
+.main-text--link:hover{
+    background-color: #000;
+    color: #fff;
+}
+.nav-heading{
+    font-family: "Reem Kufi",sans-serif;
+    text-transform: uppercase;
+    font-size: 3.6rem;
+}
