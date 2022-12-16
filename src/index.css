@@ -96,6 +96,11 @@ body{
 @media only screen and (max-width: 500px) {
   .container--main{
     padding: 2rem;
+    width: 100%;
+  }
+  .image-chart{
+    width: 100%;
+    height: auto;
   }
   
 }
