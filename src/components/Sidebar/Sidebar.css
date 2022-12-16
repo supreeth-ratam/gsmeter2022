@@ -44,10 +44,12 @@
     font-size: 1.6rem;
     padding: 1rem 1rem;
     display: block;
-    /* background-color: #EEE6E2; */
     font-weight: 700;
     color: black;
     text-decoration: none;
+}
+.navigation-links:hover{
+    color: black;
 }
 .active{
     background-color: var(--active-color);

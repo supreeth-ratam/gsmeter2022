@@ -99,3 +99,17 @@ body{
   }
   
 }
+.accordian--main{
+  cursor: pointer;
+}
+.accordian--reply{
+ display: none;
+  padding: 1rem;
+  background-color: var(--background-primary);
+  font-weight: 400;
+  font-family: 'Lato',sans-serif;
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: .3rem;
+  transition: all .5s;
+}

@@ -18,13 +18,13 @@ function Sidebar() {
               <li>Technical Council</li>
               
               <li>Cultural Council</li> */}
-              <li><NavLink to="/" className='navigation-links' activeClassName="active">Introduction</NavLink></li>
-              <li><NavLink to="/acadsug" className='navigation-links' activeClassName="active">Acads UG</NavLink></li>
-              <li><NavLink to="/acadspg" className='navigation-links' activeClassName="active">Acads PG</NavLink></li>
-              <li><NavLink to="/hostel" className='navigation-links' activeClassName="active">Hostel</NavLink></li>
-              <li><NavLink to="/sports" className='navigation-links' activeClassName="active">Sports</NavLink></li>
-              <li><NavLink to="/technical" className='navigation-links' activeClassName="active">Technical</NavLink></li>
-              <li><NavLink to="/culturals" className='navigation-links' activeClassName="active">Culturals</NavLink></li>
+              <li><NavLink to="/" className='navigation-links' activeclassname="active">Introduction</NavLink></li>
+              <li><NavLink to="/acadsug" className='navigation-links' activeclassname="active">Acads UG</NavLink></li>
+              <li><NavLink to="/acadspg" className='navigation-links' activeclassname="active">Acads PG</NavLink></li>
+              <li><NavLink to="/hostel" className='navigation-links' activeclassname="active">Hostel</NavLink></li>
+              <li><NavLink to="/sports" className='navigation-links' activeclassname="active">Sports</NavLink></li>
+              <li><NavLink to="/technical" className='navigation-links' activeclassname="active">Technical</NavLink></li>
+              <li><NavLink to="/culturals" className='navigation-links' activeclassname="active">Culturals</NavLink></li>
           </ul>
       </div>
   )

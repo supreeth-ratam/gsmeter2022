@@ -17,7 +17,7 @@ function AcadsPgPage() {
       <p className="main-title">Initiatives</p>
       <p className="sub-heading">Food Fiesta</p>
       <ul className="manifesto-points">
-        <WP>
+        <WP reply={"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero neque soluta facilis mollitia dolorum. Veniam officia delectus ipsam eos, consequuntur odio totam dolorem, dolor amet repellendus a doloribus fuga adipisci quia facere."}>
           Set up a culinary club for food enthusiasts and food connoisseurs to{" "}
           <strong>explore the genre</strong> of Culinary Arts
         </WP>

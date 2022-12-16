@@ -2,6 +2,7 @@ import React from "react";
 import ImageContainer from "../ImageContainer/ImageContainer";
 import WP from "../Points/WP";
 import RP from "../Points/RP";
+import OP from "../Points/OP";
 import Indicator from "../Points/Indicator";
 function CulturalPage() {
   return (
@@ -19,10 +20,10 @@ function CulturalPage() {
       <p className="main-title">Initiatives</p>
       <p className="sub-heading">Food Fiesta</p>
       <ul className="manifesto-points">
-        <WP>
+        <OP reply={"This is ongoing and will finish by 2 days"}>
           Set up a culinary club for food enthusiasts and food connoisseurs to{" "}
           <strong>explore the genre</strong> of Culinary Arts
-        </WP>
+        </OP>
         <RP>
           Set up a kitchen facility for culinary experimentation and recommend
           new dishes to the mess councils
