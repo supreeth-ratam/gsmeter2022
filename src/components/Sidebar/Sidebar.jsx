@@ -7,7 +7,7 @@ function Sidebar() {
       <div className='sidebar'>
           <div className="header__logo-box">
               <h1>gs meter</h1>
-              <img src="public/insight-iitb-logo.png" alt="insight" className='logo'/>
+              <img src="/insight-iitb-logo.png" alt="insight" className='logo'/>
           </div>
 
           <ul className='navigation-menu'>
