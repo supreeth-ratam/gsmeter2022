@@ -38,7 +38,7 @@ function MainContent() {
     <div className="container--main">
       <Title>Introduction</Title>
       <SectionHeader>Initiatives</SectionHeader>
-      <SubHeading>Food Fiesta</SubHeading>
+      <SubHeader>Food Fiesta</SubHeader>
       <Points>
         <WP>
           Set up a culinary club for food enthusiasts and food connoisseurs to
