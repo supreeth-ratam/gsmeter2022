@@ -1,7 +1,7 @@
 import React from 'react'
 import './ImageContainer.css'
 
-function ImageContainer({ name,imgsrc,por,manlink}) {
+function ImageContainer({ name,imgsrc,por,manlink,chartsrc}) {
   return (
       <div className='parent-image-container'>
       
@@ -15,7 +15,7 @@ function ImageContainer({ name,imgsrc,por,manlink}) {
               <a href={manlink} className='main-text--link'>View Manifesto <i className="uil uil-arrow-right"></i></a>
           </div>
       </div>
-      <img src="/png-raw.png" alt="" className='image-chart'/>
+      <img src={chartsrc?chartsrc:"/png-raw.png"} alt="" className='image-chart'/>
       </div>
   )
 }

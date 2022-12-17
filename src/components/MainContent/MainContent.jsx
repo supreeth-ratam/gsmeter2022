@@ -2,16 +2,47 @@ import React from "react";
 import ImageContainer from "../ImageContainer/ImageContainer";
 import WP from "../Points/WP";
 import RP from "../Points/RP";
+import OP from "../Points/OP";
+import styled from "styled-components";
+
+export const Title = styled.h1`
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 3.6rem;
+  margin-bottom: 1.5rem;
+`;
+
+export const SectionHeader = styled.p`
+  font-family: "Oswald", sans-serif;
+  font-size: 2.8rem;
+  font-weight: 600;
+`;
+
+export const SubHeader = styled.p`
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+`;
+
+export const Points = styled.ul`
+  font-family: "Quattrocento Sans", sans-serif;
+  list-style: none;
+  font-size: 2rem;
+  font-weight: 600;
+`;
+
+
 function MainContent() {
   return (
     <div className="container--main">
-      <h1 className="page-title">Introduction</h1>
-      <p className="main-title">Initiatives</p>
-      <p className="sub-heading">Food Fiesta</p>
-      <ul className="manifesto-points">
+      <Title>Introduction</Title>
+      <SectionHeader>Initiatives</SectionHeader>
+      <SubHeading>Food Fiesta</SubHeading>
+      <Points>
         <WP>
-          Set up a culinary club for food enthusiasts and food connoisseurs to{" "}
-          <strong>explore the genre</strong> of Culinary Arts
+          Set up a culinary club for food enthusiasts and food connoisseurs to
+          <strong> explore the genre</strong> of Culinary Arts
         </WP>
         <RP>
           Set up a kitchen facility for culinary experimentation and recommend
@@ -22,12 +53,11 @@ function MainContent() {
           opportunities to enthusiasts and allow food connoisseurs and general
           public to enjoy this food at the nominal rates
         </RP>
-      </ul>
-      <p className="sub-heading">Tech Integration to Ease Workflows</p>
-      <p className="sub-heading">Library Project</p>
-      
+      </Points>
     </div>
   );
 }
 
 export default MainContent;
+
+
