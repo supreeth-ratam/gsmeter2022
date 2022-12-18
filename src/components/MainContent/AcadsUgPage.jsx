@@ -13,7 +13,7 @@ function AcadsUgPage() {
         manlink={
           "https://drive.google.com/file/d/1tr7XhEAyIDQvOYcxb-bxrhfzscsNzsl8/view?usp=sharing"
         }
-        chartsrc={"/GSAA_ug_pie.png"}
+        chartsrc={"/ACADS_UG.png"}
         imgsrc={"/aayush.png"}
         por={"General Secretary Academic Affairs UG"}
       />
