@@ -115,6 +115,7 @@ strong{
 .accordian--reply{
  display: none;
   padding: 1rem;
+  padding-left: 3rem;
   background-color: var(--background-primary);
   font-weight: 400;
   font-family: 'Lato',sans-serif;
