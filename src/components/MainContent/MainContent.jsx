@@ -40,6 +40,7 @@ function MainContent() {
       <SectionHeader>Initiatives</SectionHeader>
       <SubHeader>Food Fiesta</SubHeader>
       <Points>
+
         <WP>
           Set up a culinary club for food enthusiasts and food connoisseurs to
           <strong> explore the genre</strong> of Culinary Arts
@@ -54,6 +55,7 @@ function MainContent() {
           public to enjoy this food at the nominal rates
         </RP>
       </Points>
+      
     </div>
   );
 }

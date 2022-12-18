@@ -2,22 +2,25 @@ import React from "react";
 import { useState } from "react";
 
 function OP(props) {
-  const [state,setState] = useState(false)
+  const [state, setState] = useState(false);
   return (
-    <li>
+    <div>
       <div
         className="accordian--main"
         onClick={() => setState((prev) => !prev)}
       >
-        <i class="uil uil-arrow-growth yellow"></i> {props.children}
+        <div className="points-flex">
+
+          <i className="uil uil-arrow-growth yellow"></i>
+          <div>
+          {props.children}
+          </div>
+        </div>
       </div>
-      <div
-        className="accordian--reply"
-        style={{ "display": state && 'block'}}
-      >
-        {props.reply?props.reply:"Work Under Progress"}
+      <div className="accordian--reply" style={{ display: state && "block" }}>
+        {props.reply ? props.reply : "Work Under Progress"}
       </div>
-    </li>
+    </div>
   );
 }
 

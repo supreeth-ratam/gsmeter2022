@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
 
-function RP({ children}) {
+function RP({ children }) {
   return (
-    <div><i className="uil uil-check green"></i> {children} </div>
-  )
+    <div className="points-flex">
+      <i className="uil uil-check green"></i>
+      <div>{children}</div>
+    </div>
+  );
 }
 
-export default RP
+export default RP;
