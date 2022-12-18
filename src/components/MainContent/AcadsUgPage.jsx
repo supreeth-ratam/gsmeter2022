@@ -37,7 +37,7 @@ function AcadsUgPage() {
         <WP reply={'website issues'}>
         Conduct awareness drives regarding opportunities, courses and resources provided by the 30+ academic and research centres at IITB, to be hosted on External Portal on Insti App 
         </WP>
-        <Wp reply={'website issues'}>Develop a research portal to serve as a one stop for all research related activities by hosting student research profiles, and application portals for SURP, iSURP and CORE </Wp>
+        <WP reply={'website issues'}>Develop a research portal to serve as a one stop for all research related activities by hosting student research profiles, and application portals for SURP, iSURP and CORE </WP>
       </Points>
       <SectionHeader>ACADEMIC AND POLICY REFORMS </SectionHeader>
       <Points>
