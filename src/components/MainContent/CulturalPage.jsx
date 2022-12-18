@@ -19,6 +19,7 @@ function CulturalPage() {
       />
       <Indicator />
       
+
     </div>
   );
 }
