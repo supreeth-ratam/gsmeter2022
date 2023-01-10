@@ -3,6 +3,7 @@ import ImageContainer from "../ImageContainer/ImageContainer";
 import WP from "../Points/WP";
 import RP from "../Points/RP";
 import OP from "../Points/OP";
+import IP from "../Points/IP";
 import Indicator from "../Points/Indicator";
 import { Title, SectionHeader, SubHeader, Points } from "./MainContent";
 function AcadsUgPage() {
