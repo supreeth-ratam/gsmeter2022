@@ -9,6 +9,7 @@ import { Title, SectionHeader, SubHeader, Points } from "./MainContent"
 function CulturalPage() {
   return (
     <div className="container--main">
+      <Title>Gsca Meter</Title>
       <ImageContainer
         name={"Divya Mrinal"}
         manlink={

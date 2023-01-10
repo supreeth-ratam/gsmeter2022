@@ -8,6 +8,7 @@ import { Title, SectionHeader, SubHeader, Points } from "./MainContent";
 function SportsPage() {
   return (
     <div className="container--main">
+      <Title>Gssa Meter</Title>
       <ImageContainer
         name={"Ketan Agrawal"}
         manlink={
@@ -15,6 +16,10 @@ function SportsPage() {
         }
         imgsrc={"/ketan.jpeg"}
         por={"General Secretary, Sports Affairs "}
+        completed={19.5}
+        notstarted={46.34}
+        ongoing={9.75}
+        unclear={24.39}
       />
       <Indicator />
 
@@ -22,9 +27,7 @@ function SportsPage() {
       <SectionHeader>
         {" "}
         Renaissance |{" "}
-        <span style={{ fontFamily: "cursive" }}>
-          Ameliorating the rich legacy of IIT Bombay Sports
-        </span>
+        <SubHeader> Ameliorating the rich legacy of IIT Bombay Sports</SubHeader>
       </SectionHeader>
       <Points>
         <RP>
@@ -47,9 +50,7 @@ function SportsPage() {
       </Points>
       <SectionHeader>
         <strong>Global Symposium | </strong>
-        <span style={{ fontFamily: "cursive" }}>
-          A one-stop destination to the sports fan
-        </span>
+        <SubHeader>A one-stop destination to the sports fan</SubHeader>
       </SectionHeader>
       <Points>
         <WP>
@@ -69,9 +70,7 @@ function SportsPage() {
       </Points>
       <SectionHeader>
         <strong>For the Win | </strong>
-        <span style={{ fontFamily: "cursive" }}>
-          Vision of Inter IIT through the eyes of incoming batches{" "}
-        </span>{" "}
+        <SubHeader> Vision of Inter IIT through the eyes of incoming batches</SubHeader>
       </SectionHeader>
 
       <Points>
@@ -90,9 +89,7 @@ function SportsPage() {
       </Points>
       <SectionHeader>
         <strong>Towards a Fitter Insti | </strong>{" "}
-        <span style={{ fontFamily: "cursive" }}>
-          Empowering the mind body connection
-        </span>
+        <SubHeader>Empowering the mind body connection</SubHeader>
       </SectionHeader>
       <Points>
         <RP>

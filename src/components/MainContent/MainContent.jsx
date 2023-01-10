@@ -9,13 +9,14 @@ export const Title = styled.h1`
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   font-size: 3.6rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 `;
 
 export const SectionHeader = styled.p`
   font-family: "Oswald", sans-serif;
   font-size: 2.8rem;
   font-weight: 600;
+  margin:0;
 `;
 
 export const SubHeader = styled.p`
@@ -23,6 +24,7 @@ export const SubHeader = styled.p`
   text-transform: uppercase;
   font-size: 2rem;
   margin-bottom: 1rem;
+  display:inline-block;
 `;
 
 export const Points = styled.ul`

@@ -18,6 +18,10 @@ function AcadsUgPage() {
         chartsrc={"/ACADug.png"}
         imgsrc={"/aayush.png"}
         por={"General Secretary Academic Affairs UG"}
+        completed={22.9}
+        notstarted={28.6}
+        ongoing={28.6}
+        unclear={0}
       />
       <Indicator />
       <SectionHeader>Key Initiatives</SectionHeader>

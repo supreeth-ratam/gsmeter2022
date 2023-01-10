@@ -8,6 +8,7 @@ import {Title,SectionHeader,SubHeader,Points} from "./MainContent"
 function AcadsPgPage() {
   return (
     <div className="container--main">
+      <Title>Gsaa Meter</Title>
       <ImageContainer
         name={"Vishaka"}
         manlink={"https://drive.google.com/file/d/1k8lNyKtkizbJnZwXB33KPepvw_pbP-N7/view?usp=sharing"}

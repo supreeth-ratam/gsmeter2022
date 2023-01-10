@@ -9,12 +9,17 @@ import { Title, SectionHeader, SubHeader, Points } from "./MainContent"
 function HostelPage() {
   return (
     <div className="container--main">
+      <Title>Gsha Meter</Title>
       <ImageContainer
         name={"Kartik Bachhav"}
         manlink={"https://drive.google.com/file/d/1EuISjPSQszv9DGbidvAZOtIeD7X2gFIP/view?usp=sharing"}
         imgsrc={"/karthik.png"}
         por={"General Secretary Hostel Affairs"}
         chartsrc={'/hostel.png'}
+        completed={26.8}
+        notstarted={41.5}
+        ongoing={31.7}
+        unclear={0}
         />
       <Indicator />
       <SectionHeader>

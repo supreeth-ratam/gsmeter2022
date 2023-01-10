@@ -91,6 +91,9 @@ strong{
   color: #FF470C;
   font-size: 2rem;
 }
+.piechart{
+  width: 200px;
+}
 @media only screen and (max-width: 780px) {
   .container--main{
     margin-left:0rem;

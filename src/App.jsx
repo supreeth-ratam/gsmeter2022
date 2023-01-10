@@ -10,6 +10,7 @@ import AcadsUgPage from './components/MainContent/AcadsUgPage'
 import AcadsPgPage from './components/MainContent/AcadsPgPage'
 import HostelPage from './components/MainContent/HostelPage'
 import CulturalPage from './components/MainContent/CulturalPage'
+import Experiment from './components/MainContent/Experiment'
 
 function App() {
   
@@ -28,6 +29,7 @@ function App() {
         <Route path='/acadspg' element={<AcadsPgPage/> } />
         <Route path='/hostel' element={<HostelPage/> } />
         <Route path='/technical' element={<TechnicalPage/> } />
+        <Route path='/exp' element={<Experiment/> } />
         </Routes>
         {/* <Footer/> */}
       </Router>
