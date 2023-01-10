@@ -17,6 +17,7 @@ export const SectionHeader = styled.p`
   font-size: 2.8rem;
   font-weight: 600;
   margin:0;
+  display:inline-block;
 `;
 
 export const SubHeader = styled.p`
@@ -25,6 +26,7 @@ export const SubHeader = styled.p`
   font-size: 2rem;
   margin-bottom: 1rem;
   display:inline-block;
+  margin-left:1rem;
 `;
 
 export const Points = styled.ul`

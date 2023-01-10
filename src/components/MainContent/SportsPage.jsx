@@ -27,8 +27,9 @@ function SportsPage() {
       <SectionHeader>
         {" "}
         Renaissance |{" "}
-        <SubHeader> Ameliorating the rich legacy of IIT Bombay Sports</SubHeader>
+        
       </SectionHeader>
+      <SubHeader>Ameliorating the rich legacy of IIT Bombay Sports</SubHeader>
       <Points>
         <RP>
           {" "}
@@ -50,8 +51,9 @@ function SportsPage() {
       </Points>
       <SectionHeader>
         <strong>Global Symposium | </strong>
-        <SubHeader>A one-stop destination to the sports fan</SubHeader>
+        
       </SectionHeader>
+      <SubHeader>A one-stop destination to the sports fan</SubHeader>
       <Points>
         <WP>
           Launch <strong>Khel Manch</strong>, a multipurpose portal
@@ -70,8 +72,8 @@ function SportsPage() {
       </Points>
       <SectionHeader>
         <strong>For the Win | </strong>
-        <SubHeader> Vision of Inter IIT through the eyes of incoming batches</SubHeader>
       </SectionHeader>
+        <SubHeader> Vision of Inter IIT through the eyes of incoming batches</SubHeader>
 
       <Points>
         <WP>
@@ -89,8 +91,8 @@ function SportsPage() {
       </Points>
       <SectionHeader>
         <strong>Towards a Fitter Insti | </strong>{" "}
-        <SubHeader>Empowering the mind body connection</SubHeader>
       </SectionHeader>
+        <SubHeader>Empowering the mind body connection</SubHeader>
       <Points>
         <RP>
           Organize <strong>Psych Eval</strong> camps bi-annually to enrich the
