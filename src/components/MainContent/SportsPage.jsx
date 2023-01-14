@@ -24,11 +24,7 @@ function SportsPage() {
       <Indicator />
 
       <Title>INITIATIVES </Title>
-      <SectionHeader>
-        {" "}
-        Renaissance |{" "}
-        
-      </SectionHeader>
+      <SectionHeader> Renaissance | </SectionHeader>
       <SubHeader>Ameliorating the rich legacy of IIT Bombay Sports</SubHeader>
       <Points>
         <RP>
@@ -36,7 +32,7 @@ function SportsPage() {
           Pioneer <strong>la cérémonie</strong>-An inauguration event to
           aggrandize the grandeur of the Sports GC{" "}
         </RP>
-        <OP>
+        <OP reply={"tt and squash live streams; ISC yt"}>
           Introduce the <strong>Sports Coverage Program</strong> to facilitate
           collective coverage of sporting events
         </OP>
@@ -44,14 +40,17 @@ function SportsPage() {
           Conduct <strong>Sophiesta</strong> to provide to be sophies an
           occasion to experience the essence of Freshiesta
         </WP>
-        <OP>
+        <OP
+          reply={
+            "resolved: One to one mapping between hostels and sports council is done, you can confirm from different hostel sports co the information delivery is very smooth and their opinions are listened properly"
+          }
+        >
           Establish <strong>one-to-one mapping</strong>among sport and hostel
           representatives for better accountability
         </OP>
       </Points>
       <SectionHeader>
         <strong>Global Symposium | </strong>
-        
       </SectionHeader>
       <SubHeader>A one-stop destination to the sports fan</SubHeader>
       <Points>
@@ -65,7 +64,7 @@ function SportsPage() {
           Facilitate the screening of podium matches of the Indian contingent at
           international tournament
         </WP>
-        <OP>
+        <OP reply={"kabaddi and zumba workshop was done hiit discontinued"}>
           Organize workshops of unconventional sports played in international
           events to promote diversity
         </OP>
@@ -73,7 +72,10 @@ function SportsPage() {
       <SectionHeader>
         <strong>For the Win | </strong>
       </SectionHeader>
-        <SubHeader> Vision of Inter IIT through the eyes of incoming batches</SubHeader>
+      <SubHeader>
+        {" "}
+        Vision of Inter IIT through the eyes of incoming batches
+      </SubHeader>
 
       <Points>
         <WP>
@@ -92,13 +94,17 @@ function SportsPage() {
       <SectionHeader>
         <strong>Towards a Fitter Insti | </strong>{" "}
       </SectionHeader>
-        <SubHeader>Empowering the mind body connection</SubHeader>
+      <SubHeader>Empowering the mind body connection</SubHeader>
       <Points>
         <RP>
           Organize <strong>Psych Eval</strong> camps bi-annually to enrich the
           mental health and fitness culture in IITB{" "}
         </RP>
-        <OP>
+        <OP
+          reply={
+            "resolved: PFRP are taken care of by the coaches for the camp players and it has gone smooth, soon enough can be implemented for general public"
+          }
+        >
           Introduce <strong>PFRP</strong>: Personal Fitness Regime Planner in
           accordance with the IITB Sports App
         </OP>
@@ -125,11 +131,15 @@ function SportsPage() {
           Formulate the <strong> UG Sports Handbook</strong>, depicting the rich
           sports legacy and culture of the institute{" "}
         </RP>
-        <OP>
+        <OP
+          reply={
+            "Resolved:Blackcats expedition and blackcats convention, both of them are completed For the first one, there were team dinners specifically, trek to Sameer hill, informal session at beach and this was varying sport wise, as there are totally different teams. For the second one 100 days to go and the day camp was started and continuously through iitbsports page the importance of being a part of IIT Bombay was reflected In this part only the 4th point Instate simultaneous trials across sports is also accomplished. Clear information was given in week gap time to all the players"
+          }
+        >
           Organize <strong> Blackcats’ Convention</strong> to enthuse budding
           athletes, inspiring them to clinch Inter IIT
         </OP>
-        <OP>
+        <OP reply={"resolved"}>
           Introduce <strong> Blackcat Expeditions</strong> - short contingent
           excursions, trips and getaways geared towards increasing the
           camaraderie among the members of the Inter-IIT contingen
@@ -146,7 +156,11 @@ function SportsPage() {
           Establish a cycling club and conduct <strong> Tour De Insti</strong>,
           a cycling marathon as its flagship event{" "}
         </RP>
-        <WP>
+        <WP
+          reply={
+            "Indian sports extravaganza is either on 14th or 26th Jan, so it is yet to be completed"
+          }
+        >
           Introduce <strong> Indian Sports Extravaganza</strong> taking our
           culture of indigenous games to the forefront{" "}
         </WP>
@@ -161,7 +175,11 @@ function SportsPage() {
       </Points>
       <Title>HOSTEL COORDINATION </Title>
       <Points>
-        <WP>
+        <WP
+          reply={
+            "We released GC video collectively of that sport stating hostel views and statements"
+          }
+        >
           Launch the <strong> GC Diaries</strong>, a video series portraying the
           past splendor of the Hostel Sport GCs
         </WP>
@@ -182,7 +200,11 @@ function SportsPage() {
           Introduce <strong> Mixed Sports Weekend</strong> in order to bridge
           the participation gap across both genders
         </WP>
-        <OP>
+        <OP
+          reply={
+            "a self defence workshop was held around independence day iirc"
+          }
+        >
           Organize Shield Maiden, an institute-wide talk and self-defense
           workshop on the occasion of the National Women’s Health and Fitness
           Day to encourage the representation of female athletes{" "}
