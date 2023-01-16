@@ -67,3 +67,9 @@
 .image-chart{
     height: 30rem;
 }
+@media only screen and (max-width: 500px) {
+    .parent-image-container{
+        flex-direction: column;
+        align-items: center;
+    }   
+}

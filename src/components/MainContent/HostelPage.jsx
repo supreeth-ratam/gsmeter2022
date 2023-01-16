@@ -72,7 +72,7 @@ function HostelPage() {
           Push for a <strong>24*7 convenience store</strong> for catering day to day necessities of the residents
         </RP>
         <WP
-          reply={'This was meant to be a repair shop, but there is already one at YP and for tendering fixed rate needs to be applied which is not possible here.'}
+          reply={'This was meant to be a repair shop, but there is already one at YP Gate.'}
         >
           Re-initiate the tendering process for the setup of an <strong>electronics shop in Hostel 15</strong>
         </WP>
@@ -90,7 +90,7 @@ function HostelPage() {
           Re-introduce <strong>Medicine collection boxes</strong> in all the hostels to collect extra medicines.
         </WP>
         <WP
-          reply={'The vendor for this will also sell spectacles along with the checkups which is not approved by Dean'}
+          reply={'Not possible as administration is against setting up a paid clinic'}
         >
           Ensure <strong>Eye check-ups & Health check-up camps</strong> and Eye-Lens drives every semester
         </WP>
@@ -143,7 +143,7 @@ function HostelPage() {
       </SectionHeader>
       <Points>
         <WP
-          reply={'After H10 incident this is not possible'}
+          reply={'Administrations will not permit in present circumstances'}
         >
           Push for a <strong>time extension of opposite gender Entry-Exit</strong> in all the hostels
         </WP>
@@ -171,11 +171,13 @@ function HostelPage() {
         Accountability, Reforms and no Others
       </SectionHeader>
       <Points>
-        <WP>
+        <WP
+        reply = {"Blog and video reports not gonna happen"}
+        >
           In order to ensure transparency and accountability of the Hostel Affairs Council, propose to reinitiate <strong>Hostel Affairs Blog</strong>, release monthly <strong>Video Work Reports</strong> and <strong>HGSC minutes</strong>
         </WP>
         <WP
-          reply={'This is something that needs to be implemented at the end of the tenure'}
+          reply={'Will be implemented end of tenure'}
         >
           Inclusion of <strong>Cycle Donation/Takeaway option</strong> on hostel no-dues form to counter the scrap  problem faced by the hostels as well as to donate the cycles to the respective hostels
         </WP>
@@ -192,7 +194,9 @@ function HostelPage() {
         Sustainability
       </SectionHeader>
       <Points>
-        <WP>
+        <WP
+        reply={"Will not happen"}
+        >
           Propose a <strong>Pan-IIT Sustainability</strong> body to aid in collaborative effort and exchange of ideas
         </WP>
         <RP>
@@ -217,10 +221,10 @@ function HostelPage() {
         >
           Ensure Installation of <strong>Signboards and Institute maps</strong> at prominent locations on the campus
         </OP>
-        <WP>
+        <WP reply={"Will not happen"}>
           Push for the introduction of <strong>Aesthetic infrastructure</strong> and growth by proposing initiatives such as Installation of <strong>Benches with sheds</strong> on roadsides, development of <strong>Vertical gardens</strong>.
         </WP>
-        <WP>
+        <WP reply={"Will not happen"}>
           Follow up on <strong>Horticulture privatization</strong> to ensure better Landscape development and an  increase in accountability and efficiency of gardeners associated with maintaining the same.
         </WP>
       </Points>
