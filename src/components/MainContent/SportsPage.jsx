@@ -3,6 +3,7 @@ import ImageContainer from "../ImageContainer/ImageContainer";
 import WP from "../Points/WP";
 import RP from "../Points/RP";
 import OP from "../Points/OP";
+import IP from "../Points/IP"
 import Indicator from "../Points/Indicator";
 import { Title, SectionHeader, SubHeader, Points } from "./MainContent";
 function SportsPage() {
@@ -16,10 +17,10 @@ function SportsPage() {
         }
         imgsrc={"/ketan.jpeg"}
         por={"General Secretary, Sports Affairs "}
-        completed={19.5}
-        notstarted={46.34}
-        ongoing={9.75}
-        unclear={24.39}
+        completed={22.5}
+        notstarted={35}
+        ongoing={27.5}
+        unclear={15}
       />
       <Indicator />
 
@@ -42,7 +43,10 @@ function SportsPage() {
         </WP>
         <OP
           reply={
-            "resolved: One to one mapping between hostels and sports council is done, you can confirm from different hostel sports co the information delivery is very smooth and their opinions are listened properly"
+            <>
+              <p>Resolved</p>
+              <p>One to one mapping between hostels and sports council is done, you can confirm from different hostel sports co the information delivery is very smooth and their opinions are listened properly</p>
+            </>
           }
         >
           Establish <strong>one-to-one mapping</strong>among sport and hostel
@@ -113,16 +117,16 @@ function SportsPage() {
       <Points>
         <WP>
           Expedite <strong> Mega Gymkhana Revamp</strong> by installing iron
-          meshes in Hockey, reinstating Table
-        </WP>
-        <RP>
-          Tennis court with synthetic mats, done part wise and fostering the
+          meshes in Hockey, reinstating Table Tennis court with synthetic mats, done part wise and fostering the
           restoration process of the stairs
-        </RP>
+        </WP>
         <WP>
+        Set up a temporary sport goods outlet at the H12-13-14 premises for purchase and maintenance
+        </WP>
+        <IP>
           Install <strong> Regulatory Boards</strong> alongside sporting
           facilities to facilitate compliance and awareness
-        </WP>
+        </IP>
       </Points>
       <Title>INTER-IIT AND INSTITUTE TEAMS</Title>
       <Points>
@@ -133,7 +137,11 @@ function SportsPage() {
         </RP>
         <OP
           reply={
-            "Resolved:Blackcats expedition and blackcats convention, both of them are completed For the first one, there were team dinners specifically, trek to Sameer hill, informal session at beach and this was varying sport wise, as there are totally different teams. For the second one 100 days to go and the day camp was started and continuously through iitbsports page the importance of being a part of IIT Bombay was reflected In this part only the 4th point Instate simultaneous trials across sports is also accomplished. Clear information was given in week gap time to all the players"
+            <>Resolved
+              <br />
+              Blackcats expedition and blackcats convention, both of them are completed For the first one, there were team dinners specifically, trek to Sameer hill, informal session at beach and this was varying sport wise, as there are totally different teams.<br />
+              For the second one 100 days to go and the day camp was started and continuously through iitbsports page the importance of being a part of IIT Bombay was reflected<br />
+              In this part only the 4th point Instate simultaneous trials across sports is also accomplished. Clear information was given in week gap time to all the players</>
           }
         >
           Organize <strong> Blackcats’ Convention</strong> to enthuse budding
@@ -156,33 +164,33 @@ function SportsPage() {
           Establish a cycling club and conduct <strong> Tour De Insti</strong>,
           a cycling marathon as its flagship event{" "}
         </RP>
-        <WP
+        <OP
           reply={
             "Indian sports extravaganza is either on 14th or 26th Jan, so it is yet to be completed"
           }
         >
           Introduce <strong> Indian Sports Extravaganza</strong> taking our
           culture of indigenous games to the forefront{" "}
-        </WP>
+        </OP>
         <WP>
           Celebrate a <strong> Para Sports Day</strong> to sensitize students
           and celebrate the spirit of Sports for All{" "}
         </WP>
-        <WP>
+        <IP>
           Mandate the issuing of E-Certificates for sport events to formalize
           the incentivization process
-        </WP>
+        </IP>
       </Points>
       <Title>HOSTEL COORDINATION </Title>
       <Points>
-        <WP
+        <RP
           reply={
             "We released GC video collectively of that sport stating hostel views and statements"
           }
         >
           Launch the <strong> GC Diaries</strong>, a video series portraying the
           past splendor of the Hostel Sport GCs
-        </WP>
+        </RP>
         <RP>
           Initiate <strong> annual sports timeline</strong> in the Sports App by
           incorporating live updates, points table and the fixtures of GCs to
@@ -200,7 +208,7 @@ function SportsPage() {
           Introduce <strong> Mixed Sports Weekend</strong> in order to bridge
           the participation gap across both genders
         </WP>
-        <OP
+        <IP
           reply={
             "a self defence workshop was held around independence day iirc"
           }
@@ -208,7 +216,7 @@ function SportsPage() {
           Organize Shield Maiden, an institute-wide talk and self-defense
           workshop on the occasion of the National Women’s Health and Fitness
           Day to encourage the representation of female athletes{" "}
-        </OP>
+        </IP>
         <WP>
           Initiate QWin, series of gym training sessions with exclusive women
           slots with a female trainer
@@ -220,10 +228,10 @@ function SportsPage() {
           Organize PG Freshiesta to cater to PG new entrants from both semesters
           in the autumn semester
         </RP>
-        <RP>
+        <IP>
           Launch inter-programme league matches across sports, channelizing
           intrinsic competitive spirit
-        </RP>
+        </IP>
         <WP>
           Introduce workshops before the PG Sports GC to augment participation
           in unheralded sports
@@ -240,15 +248,15 @@ function SportsPage() {
           Start a <strong> Legacy Podcast</strong> essaying forgotten
           chronicles, inviting alumni to relive their memories
         </WP>
-        <OP>
+        <IP>
           Procure two cameras & accessories for the sports council to facilitate
           the comprehensive coverage of most of the institute wide events geared
           towards augmenting their reach
-        </OP>
-        <WP>
+        </IP>
+        <OP reply={"Introductory video has been made, posted on insta/fb and YouTube"}>
           Direct an Introductory Video elucidating about sport facilities and
           clubs to ignite enthusiasm
-        </WP>
+        </OP>
       </Points>
       <Title>Follow UPs</Title>
       <Points>
@@ -256,10 +264,10 @@ function SportsPage() {
           Follow up on building of open gym to provide better ventilated areas
           to promote fitness in insti
         </WP>
-        <OP>
+        <IP>
           Track the installation of energy-efficient LED lights in Badminton
           Courts and Indoor Gymkhana
-        </OP>
+        </IP>
         <WP>
           Pursue the creation of 100-meter synthetic track construction to ease
           athletics monsoon practices
