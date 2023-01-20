@@ -1,6 +1,5 @@
 import React from 'react'
 import styled from 'styled-components'
-import { StyledPoints } from '../MainContent/MainContent';
 import "./Title.css"
 
 
@@ -16,7 +15,7 @@ function Title({lastUpdated,children}) {
   return (
       <div className='TitleBox'>
           <TitleName>{children}</TitleName>
-          {lastUpdated && <StyledPoints>Last Updated: {lastUpdated}</StyledPoints>}
+          {lastUpdated && <p className='date'>Last Updated: {lastUpdated}</p>}
       </div>
   )
 }
