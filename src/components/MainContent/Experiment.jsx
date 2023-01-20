@@ -5,7 +5,8 @@ import WP from "../Points/WP";
 import RP from "../Points/RP";
 import OP from "../Points/OP";
 import Indicator from "../Points/Indicator";
-import { Title, SectionHeader, SubHeader, Points } from "./MainContent";
+import { SectionHeader, SubHeader, Points } from "./MainContent";
+import Title from "../Title/Title";
 export default function Experiment() {
   return (
     <div className="container--main">
