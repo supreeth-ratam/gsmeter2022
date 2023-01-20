@@ -94,6 +94,13 @@ strong{
 .piechart{
   width: 200px;
 }
+.Main-text{
+  font-family: "Quattrocento Sans", sans-serif;
+  list-style: none;
+  font-size: 2rem;
+  font-weight: 600; 
+}
+
 @media only screen and (max-width: 780px) {
   .container--main{
     margin-left:0rem;

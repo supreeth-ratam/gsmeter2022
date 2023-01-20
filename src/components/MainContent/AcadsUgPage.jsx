@@ -1,15 +1,16 @@
 import React from "react";
 import ImageContainer from "../ImageContainer/ImageContainer";
+import Title from "../Title/Title";
 import WP from "../Points/WP";
 import RP from "../Points/RP";
 import OP from "../Points/OP";
 import IP from "../Points/IP";
 import Indicator from "../Points/Indicator";
-import { Title, SectionHeader, SubHeader, Points } from "./MainContent";
+import {  SectionHeader, SubHeader, Points } from "./MainContent";
 function AcadsUgPage() {
   return (
     <div className="container--main">
-      <Title>Gsaa Meter</Title>
+      <Title lastUpdated={"20/01/2023"}>Gsaa Meter</Title>
       <ImageContainer
         name={"Ayush Ambadas Dahale"}
         manlink={

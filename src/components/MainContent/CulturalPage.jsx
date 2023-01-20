@@ -4,12 +4,15 @@ import WP from "../Points/WP";
 import RP from "../Points/RP";
 import OP from "../Points/OP";
 import Indicator from "../Points/Indicator";
-import { Title, SectionHeader, SubHeader, Points } from "./MainContent"
+import { SectionHeader, SubHeader, Points } from "./MainContent"
+import Title from "../Title/Title";
 
 function CulturalPage() {
   return (
     <div className="container--main">
-      <Title>Gsca Meter</Title>
+      <Title
+      lastUpdated={"20/01/2023"}
+      >Gsca Meter</Title>
       <ImageContainer
         name={"Divya Mrinal"}
         manlink={

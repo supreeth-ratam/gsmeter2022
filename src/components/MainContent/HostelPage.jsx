@@ -4,12 +4,15 @@ import WP from "../Points/WP";
 import RP from "../Points/RP";
 import OP from "../Points/OP";
 import Indicator from "../Points/Indicator";
-import { Title, SectionHeader, SubHeader, Points } from "./MainContent"
+import { SectionHeader, SubHeader, Points } from "./MainContent"
+import Title from "../Title/Title";
 
 function HostelPage() {
   return (
     <div className="container--main">
-      <Title>Gsha Meter</Title>
+      <Title
+      lastUpdated={"20/01/2023"}
+      >Gsha Meter</Title>
       <ImageContainer
         name={"Kartik Bachhav"}
         manlink={"https://drive.google.com/file/d/1EuISjPSQszv9DGbidvAZOtIeD7X2gFIP/view?usp=sharing"}

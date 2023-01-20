@@ -5,11 +5,14 @@ import RP from "../Points/RP";
 import OP from "../Points/OP";
 import IP from "../Points/IP"
 import Indicator from "../Points/Indicator";
-import { Title, SectionHeader, SubHeader, Points } from "./MainContent";
+import Title from "../Title/Title";
+import { SectionHeader, SubHeader, Points } from "./MainContent";
 function SportsPage() {
   return (
     <div className="container--main">
-      <Title>Gssa Meter</Title>
+      <Title
+      lastUpdated={"20/01/2023"}
+      >Gssa Meter</Title>
       <ImageContainer
         name={"Ketan Agrawal"}
         manlink={
