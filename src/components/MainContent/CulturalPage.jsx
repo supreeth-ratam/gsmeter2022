@@ -175,7 +175,7 @@ function CulturalPage() {
       Off Manifesto Initiatives
       </SectionHeader>
       <Points>
-      <RP>Can add an initiative not in manifesto but completed:
+      <RP>
 Getting additional budget for Inter IIT cult being approved this year, and for the first time ensuring that the competition is free for participants by taking care of acco, travel and related costs.</RP>  
       </Points>
 
