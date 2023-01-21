@@ -11,7 +11,7 @@ function SportsPage() {
   return (
     <div className="container--main">
       <Title
-      lastUpdated={"20/01/2023"}
+      lastUpdated={"21/01/2023"}
       >Gssa Meter</Title>
       <ImageContainer
         name={"Ketan Agrawal"}
@@ -44,17 +44,10 @@ function SportsPage() {
           Conduct <strong>Sophiesta</strong> to provide to be sophies an
           occasion to experience the essence of Freshiesta
         </WP>
-        <OP
-          reply={
-            <>
-              <p>Resolved</p>
-              <p>One to one mapping between hostels and sports council is done, you can confirm from different hostel sports co the information delivery is very smooth and their opinions are listened properly</p>
-            </>
-          }
-        >
+        <RP>
           Establish <strong>one-to-one mapping</strong>among sport and hostel
           representatives for better accountability
-        </OP>
+        </RP>
       </Points>
       <SectionHeader>
         <strong>Global Symposium | </strong>
@@ -107,14 +100,10 @@ function SportsPage() {
           Organize <strong>Psych Eval</strong> camps bi-annually to enrich the
           mental health and fitness culture in IITB{" "}
         </RP>
-        <OP
-          reply={
-            "resolved: PFRP are taken care of by the coaches for the camp players and it has gone smooth, soon enough can be implemented for general public"
-          }
-        >
+        <RP>
           Introduce <strong>PFRP</strong>: Personal Fitness Regime Planner in
           accordance with the IITB Sports App
-        </OP>
+        </RP>
       </Points>
       <Title>FACILITIES AND INFRASTRUCTURE</Title>
       <Points>
@@ -138,28 +127,19 @@ function SportsPage() {
           Formulate the <strong> UG Sports Handbook</strong>, depicting the rich
           sports legacy and culture of the institute{" "}
         </RP>
-        <OP
-          reply={
-            <>Resolved
-              <br />
-              Blackcats expedition and blackcats convention, both of them are completed For the first one, there were team dinners specifically, trek to Sameer hill, informal session at beach and this was varying sport wise, as there are totally different teams.<br />
-              For the second one 100 days to go and the day camp was started and continuously through iitbsports page the importance of being a part of IIT Bombay was reflected<br />
-              In this part only the 4th point Instate simultaneous trials across sports is also accomplished. Clear information was given in week gap time to all the players</>
-          }
-        >
+        <RP>
           Organize <strong> Blackcats’ Convention</strong> to enthuse budding
           athletes, inspiring them to clinch Inter IIT
-        </OP>
-        <OP reply={"resolved"}>
+        </RP>
+        <RP>
           Introduce <strong> Blackcat Expeditions</strong> - short contingent
           excursions, trips and getaways geared towards increasing the
           camaraderie among the members of the Inter-IIT contingen
-        </OP>
-        <OP>
-          {" "}
+        </RP>
+        <RP>
           Instate simultaneous trials across sports, achieving better cognizance
           and enhanced outreach
-        </OP>
+        </RP>
       </Points>
       <Title>EVENTS</Title>
       <Points>
@@ -256,10 +236,10 @@ function SportsPage() {
           the comprehensive coverage of most of the institute wide events geared
           towards augmenting their reach
         </IP>
-        <OP reply={"Introductory video has been made, posted on insta/fb and YouTube"}>
+        <RP>
           Direct an Introductory Video elucidating about sport facilities and
           clubs to ignite enthusiasm
-        </OP>
+        </RP>
       </Points>
       <Title>Follow UPs</Title>
       <Points>

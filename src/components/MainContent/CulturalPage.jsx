@@ -171,7 +171,13 @@ function CulturalPage() {
           Shift books from SAC library and the hostel libraries to the Central Library providing a centralized place for all books
         </WP>
       </Points>
-
+      <SectionHeader>
+      Off Manifesto Initiatives
+      </SectionHeader>
+      <Points>
+      <RP>Can add an initiative not in manifesto but completed:
+Getting additional budget for Inter IIT cult being approved this year, and for the first time ensuring that the competition is free for participants by taking care of acco, travel and related costs.</RP>  
+      </Points>
 
 
     </div>
