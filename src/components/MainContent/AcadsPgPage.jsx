@@ -11,7 +11,7 @@ function AcadsPgPage() {
     <div className="container--main">
       <Title>Gsaa Meter</Title>
       <ImageContainer
-        name={"Vishaka"}
+        name={"Vishakha"}
         manlink={"https://drive.google.com/file/d/1k8lNyKtkizbJnZwXB33KPepvw_pbP-N7/view?usp=sharing"}
         imgsrc={"/vishaka.png"}
         por={"General Secretary Academic Affairs PG"}
