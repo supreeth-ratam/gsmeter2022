@@ -11,7 +11,7 @@ function HostelPage() {
   return (
     <div className="container--main">
       <Title
-      lastUpdated={"20/01/2023"}
+      lastUpdated={"24/01/2023"}
       >Gsha Meter</Title>
       <ImageContainer
         name={"Kartik Bachhav"}
@@ -175,7 +175,7 @@ function HostelPage() {
       </SectionHeader>
       <Points>
         <WP
-        reply = {"Blog and video reports not gonna happen"}
+        reply = {"Blog and video reports not going to happen"}
         >
           In order to ensure transparency and accountability of the Hostel Affairs Council, propose to reinitiate <strong>Hostel Affairs Blog</strong>, release monthly <strong>Video Work Reports</strong> and <strong>HGSC minutes</strong>
         </WP>
