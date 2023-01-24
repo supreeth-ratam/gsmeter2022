@@ -19,9 +19,9 @@ function AcadsUgPage() {
         chartsrc={"/ACADug.png"}
         imgsrc={"/aayush.png"}
         por={"General Secretary Academic Affairs UG"}
-        completed={26.4}
-        notstarted={25}
-        ongoing={44.11}
+        completed={22.85}
+        notstarted={28.58}
+        ongoing={48.57}
         unclear={0}
       />
       <Indicator />
