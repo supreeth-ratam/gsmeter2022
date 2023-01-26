@@ -115,10 +115,10 @@ function SportsPage() {
         <WP>
         Set up a temporary sport goods outlet at the H12-13-14 premises for purchase and maintenance
         </WP>
-        <IP>
+        <WP>
           Install <strong> Regulatory Boards</strong> alongside sporting
           facilities to facilitate compliance and awareness
-        </IP>
+        </WP>
       </Points>
       <Title>INTER-IIT AND INSTITUTE TEAMS</Title>
       <Points>
@@ -159,10 +159,10 @@ function SportsPage() {
           Celebrate a <strong> Para Sports Day</strong> to sensitize students
           and celebrate the spirit of Sports for All{" "}
         </WP>
-        <IP>
+        <WP>
           Mandate the issuing of E-Certificates for sport events to formalize
           the incentivization process
-        </IP>
+        </WP>
       </Points>
       <Title>HOSTEL COORDINATION </Title>
       <Points>
@@ -191,7 +191,7 @@ function SportsPage() {
           Introduce <strong> Mixed Sports Weekend</strong> in order to bridge
           the participation gap across both genders
         </WP>
-        <IP
+        <WP
           reply={
             "a self defence workshop was held around independence day iirc"
           }
@@ -199,7 +199,7 @@ function SportsPage() {
           Organize Shield Maiden, an institute-wide talk and self-defense
           workshop on the occasion of the National Women’s Health and Fitness
           Day to encourage the representation of female athletes{" "}
-        </IP>
+        </WP>
         <WP>
           Initiate QWin, series of gym training sessions with exclusive women
           slots with a female trainer
@@ -211,10 +211,10 @@ function SportsPage() {
           Organize PG Freshiesta to cater to PG new entrants from both semesters
           in the autumn semester
         </RP>
-        <IP>
+        <WP>
           Launch inter-programme league matches across sports, channelizing
           intrinsic competitive spirit
-        </IP>
+        </WP>
         <WP>
           Introduce workshops before the PG Sports GC to augment participation
           in unheralded sports
@@ -231,11 +231,11 @@ function SportsPage() {
           Start a <strong> Legacy Podcast</strong> essaying forgotten
           chronicles, inviting alumni to relive their memories
         </WP>
-        <IP>
+        <WP>
           Procure two cameras & accessories for the sports council to facilitate
           the comprehensive coverage of most of the institute wide events geared
           towards augmenting their reach
-        </IP>
+        </WP>
         <RP>
           Direct an Introductory Video elucidating about sport facilities and
           clubs to ignite enthusiasm
@@ -247,10 +247,10 @@ function SportsPage() {
           Follow up on building of open gym to provide better ventilated areas
           to promote fitness in insti
         </WP>
-        <IP>
+        <WP>
           Track the installation of energy-efficient LED lights in Badminton
           Courts and Indoor Gymkhana
-        </IP>
+        </WP>
         <WP>
           Pursue the creation of 100-meter synthetic track construction to ease
           athletics monsoon practices
