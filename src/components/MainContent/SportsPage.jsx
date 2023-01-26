@@ -11,7 +11,7 @@ function SportsPage() {
   return (
     <div className="container--main">
       <Title
-      lastUpdated={"21/01/2023"}
+      lastUpdated={"26/01/2023"}
       >Gssa Meter</Title>
       <ImageContainer
         name={"Ketan Agrawal"}
@@ -20,10 +20,9 @@ function SportsPage() {
         }
         imgsrc={"/ketan.jpeg"}
         por={"General Secretary, Sports Affairs "}
-        completed={22.5}
-        notstarted={35}
-        ongoing={27.5}
-        unclear={15}
+        completed={37.5}
+        ongoing={12.5}
+        notstarted={50}
       />
       <Indicator />
 
