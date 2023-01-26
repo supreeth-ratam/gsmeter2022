@@ -23,6 +23,7 @@ function SportsPage() {
         completed={37.5}
         ongoing={12.5}
         notstarted={50}
+        unclear={0}
       />
       <Indicator />
 
