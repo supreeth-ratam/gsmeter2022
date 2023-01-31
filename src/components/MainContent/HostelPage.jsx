@@ -11,7 +11,7 @@ function HostelPage() {
   return (
     <div className="container--main">
       <Title
-      lastUpdated={"24/01/2023"}
+      lastUpdated={"31/01/2023"}
       >Gsha Meter</Title>
       <ImageContainer
         name={"Kartik Bachhav"}
@@ -20,8 +20,8 @@ function HostelPage() {
         por={"General Secretary Hostel Affairs"}
         chartsrc={'/hostel.png'}
         completed={26.8}
-        notstarted={41.5}
-        ongoing={31.7}
+        notstarted={39.02}
+        ongoing={34.14}
         unclear={0}
         />
       <Indicator />
@@ -61,11 +61,11 @@ function HostelPage() {
         >
           Push for allocation of <strong>Research Park Garden</strong> (behind Hostel 12) to create <strong>playground facility</strong> in addition to the Gymkhana Ground
         </OP>
-        <WP
+        <OP
           reply={'Dean SA has taken it under his own supervision'}
         >
           Ensure the installation of <strong>Sanitary Pad, Tampon vending machines</strong> in the SAC area
-        </WP>
+        </OP>
         <OP
           reply={'The portal has been made and soon be operational'}
         >
