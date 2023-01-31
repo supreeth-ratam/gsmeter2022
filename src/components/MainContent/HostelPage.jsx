@@ -62,7 +62,7 @@ function HostelPage() {
           Push for allocation of <strong>Research Park Garden</strong> (behind Hostel 12) to create <strong>playground facility</strong> in addition to the Gymkhana Ground
         </OP>
         <OP
-          reply={'Dean SA has taken it under his own supervision'}
+          reply={"Vendor has been contacted, Dean and PHO are looking into it currently"}
         >
           Ensure the installation of <strong>Sanitary Pad, Tampon vending machines</strong> in the SAC area
         </OP>
