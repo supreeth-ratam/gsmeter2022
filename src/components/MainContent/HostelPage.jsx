@@ -19,9 +19,9 @@ function HostelPage() {
         imgsrc={"/karthik.png"}
         por={"General Secretary Hostel Affairs"}
         chartsrc={'/hostel.png'}
-        completed={26.8}
-        notstarted={39.02}
-        ongoing={34.14}
+        completed={28.5}
+        notstarted={40}
+        ongoing={31.4}
         unclear={0}
         />
       <Indicator />
