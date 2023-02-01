@@ -20,9 +20,9 @@ function CulturalPage() {
         }
         imgsrc={"/divya.png"}
         por={"General Secretary Cultural Affairs "}
-        completed={8}
-        notstarted={84}
-        ongoing={8}
+        completed={7.8}
+        notstarted={65.7}
+        ongoing={26.31}
         unclear={0}
       />
       <Indicator />
