@@ -43,13 +43,13 @@ function CulturalPage() {
         <WP>
           Facilitate small informal events and meets of clubs to be conducted in the Central Library courtyard
         </WP>
-        <WP>
+        <OP reply={"Librarian has approved a discussion room on 1st floor under the renovation work going on. Waiting for infrastructural work to be completed. Also work around the courtyard was in progress."}>
           Allocate a discussion room within the Central Library to conduct book club meets, writes meet, etc.
-        </WP>
-        <WP>
+        </OP>
+        <WP reply={"Allocated budget for buying books, deciding list and ordering not yet completed will be in coming weeks"}>
           Cult Library: Genre specific, learning based and historical books such as Natyashashtra or Berklee Music Theory Book to be bought and maintained by the Central Library for in-depth learning
         </WP>
-        <WP>
+        <WP reply={"Currently being handled by ILAS to crowdsource books recommendations, forms not released yet but ready to be released soon. Expected to be completed in this tenure"}>
           Crowdsource book lists to be bought by the Central Library from the students’ recommendations
         </WP>
       </Points>
@@ -67,13 +67,13 @@ function CulturalPage() {
       </Points>
       <SectionHeader>Tech Integration to Ease Workflows</SectionHeader>
       <Points>
-        <WP>
+        <WP reply={"Lead given to Web Nominee, who was impeached for not completing their respective duties"}>
           Social Media Analytics: Set up monitoring and analytic system using online softwares for all cult social media handles to improve the reach of events
         </WP>
-        <WP>
+        <WP reply={"Lead given to Web Nominee, who was impeached for not completing their respective duties"}>
           Using Social Media software to automate the broadcast of posts across all cult social media platforms easing the process of publicity
         </WP>
-        <WP>
+        <WP reply={"Lead given to Web Nominee, who was impeached for not completing their respective duties"}>
           InstiApp for Cult: Introduce personalized push notifications incorporating messages from the mascot to publicize major events like flagships and PAF in collaboration with DevCom IIT Bombay
         </WP>
       </Points>
@@ -97,21 +97,21 @@ function CulturalPage() {
         <RP>
           Conduct a second round of PG Cult Orientation for Ph.D. freshers who join in the spring semester.
         </RP>
-        <WP>
+        <OP reply={"Because of the delay in PG cult council formation couldn't make an independent video; but made a joint intro video by Silverscreen in collab with BBC"}>
           Make a separate PG Freshers Introductory Video under PG Cult every year to welcome the PG freshers
-        </WP>
-        <WP>
+        </OP>
+        <WP reply={"Had meetings with NSO Coordinator, won't be possible to introduce a NSO this year due to the process requiring more time for approval. Focus being done on NSO film making proposal as NSO design idea cancelled due to UG curriculum review incorporating a design related course"}>
           Propose to expand NSO Cult by incorporating new genres like NSO Design
         </WP>
       </Points>
       <SectionHeader>Revamps and Consolidations</SectionHeader>
       <Points>
-        <WP>
+        <WP reply={"Work in Progress, with help of BBC all major events and flagships so far being covered to collect data clips, will release a lookback post completion of flagships"}>
           Record offline cultural courses in collaboration with CDEEP Studio facility
         </WP>
-        <WP>
+        <OP>
           Work on a cultural lookback video throughout the year in collaboration with IIT BBC to be showcased as Culturals Introductory Video in the following orientation session
-        </WP>
+        </OP>
         <WP>
           Feedback Forum: Online, on the spot mechanism on culturals website for constructive feedback and suggestions on events and performance of the council
         </WP>
@@ -124,7 +124,7 @@ function CulturalPage() {
         <WP>
           Expansion of Cult Internships and Freelance Cult to incorporate more genres and provide opportunities
         </WP>
-        <WP>
+        <WP reply={"Cultural Orientation was not shifted to Convocation Hall by choice. Mascot work was in progress which was halted because Mascot was planned to be used in Freshiezza which got cancelled due to time and approval constraints."}>
           Shift Cultural Orientation to Convocation hall to cater to the audience of both freshmen and sopho mores and incorporating mascot in the event giving out freebies to the students
         </WP>
       </Points>
@@ -133,9 +133,9 @@ function CulturalPage() {
         <WP>
           Promote publicity of major cultural events using posters, banners and flags through auto rickshaws that run around inside the institute
         </WP>
-        <WP>
+        <OP>
           Personifying culturals by regularly using the mascot and creating engagement channels like comic strips, QnA and AMA stories for the culturals social media handles
-        </WP>
+        </OP>
         <OP>
           Publicity Wing: Expand the scope of the Publicity Wing in the council by undertaking publicity campaigns, branding of culturals using mascot and focusing on better audience engagement and reach
         </OP>
@@ -148,12 +148,12 @@ function CulturalPage() {
         <WP>
           Facilitate publicity of PAF by launching its merchandise and introducing customized food packaging
         </WP>
-        <WP>
+        <OP>
           Hostel Escapades: Collaborate with hostels on a rotational basis to conduct biweekly events like informal sessions and meets to increase participation of hostel inmates
-        </WP>
-        <WP>
+        </OP>
+        <OP>
           GC Guide: Provide previous GC entries in some genres and preparatory material via Athena+ portal
-        </WP>
+        </OP>
         <WP>
           Update and expand the InstiWiki page for Culturals incorporating information about PG Cult and PAF
         </WP>
@@ -161,13 +161,13 @@ function CulturalPage() {
       <SectionHeader>Inventory and Infrastructure</SectionHeader>
       <Points>
         <WP>Maintain a database of cultural inventory in SAC and hostels, and build a method for issuing inventory, ensuring accountability through the use of a portal</WP>
-        <WP>
+        <OP reply={"Music and other inventory purchased from the Institute of Eminence budget. DSLRs order given and is in bills stage, orders to be received within 2-3 weeks"}>
           Upgrade the SAC inventory; ensuring purchase of DSLRs, minimal lights, recording equipment , etc.
-        </WP>
+        </OP>
         <WP>
           Set up wifi in Old SAC Cult Rooms to ensure proper internet connection for small events and meet
         </WP>
-        <WP>
+        <WP reply={"Still in early stages of progress, lead being handled by ILAS, working on the shifting of SAC library books alongside crowdsourcing list for new purchases. Expected to be completed within this tenure"}>
           Shift books from SAC library and the hostel libraries to the Central Library providing a centralized place for all books
         </WP>
       </Points>
