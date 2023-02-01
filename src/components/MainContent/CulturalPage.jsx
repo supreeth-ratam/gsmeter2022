@@ -11,7 +11,7 @@ function CulturalPage() {
   return (
     <div className="container--main">
       <Title
-      lastUpdated={"20/01/2023"}
+      lastUpdated={"1/02/2023"}
       >Gsca Meter</Title>
       <ImageContainer
         name={"Divya Mrinal"}
