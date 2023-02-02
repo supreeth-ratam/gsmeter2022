@@ -10,7 +10,7 @@ import Title from "../Title/Title";
 function TechnicalPage() {
   return (
     <div className="container--main">
-      <Title lastUpdated={"20/01/2023"}>GSTA Meter</Title>
+      <Title lastUpdated={"02/02/2023"}>GSTA Meter</Title>
       <ImageContainer
         name={"Aniket Agrawal"}
         manlink={
@@ -19,9 +19,9 @@ function TechnicalPage() {
         imgsrc={"/aniket.png"}
         chartsrc={"/tech.png"}
         por={"General Secretary Technical Affairs"}
-        completed={47.1}
-        notstarted={14.7}
-        ongoing={38.2}
+        completed={52.94}
+        notstarted={14.71}
+        ongoing={32.35}
         unclear={0}
       />
       <Indicator />
@@ -111,7 +111,10 @@ function TechnicalPage() {
       <Points>
         <OP
           reply={
-            "Conducted for Team Shunya, other plans stopped due to Admin restriction on freshie centric events till Jan. Post that along with tech team recruitments, workshops/speaker sessions planned in Jan. In talks with UMIC for a tech workshop by them very soon."
+         
+            <>
+              Orientations for tech teams have been conducted
+            </>
           }
         >
           <strong>Tech Team Workshops:</strong> Conduct hands-on sessions based
@@ -138,14 +141,15 @@ function TechnicalPage() {
           digitization for other use cases such as the entry & exit system of
           TL, reading hall, inter-hostel entries, and issuing of keys
         </OP>
-        <WP
+        <OP
           reply={
-            "Model for washing machine que made, but deployment needs to be ideated. Other digitization plans were focussed on until now due to time constraints. Including some new initiatives like water purity checker, digital board, etc."
+            <>
+              prototype done, deployment maybe by end of semester</>
           }
         >
           <strong>Washing machine:</strong> Push for the digitization of queue
           management system of hostel washing machines
-        </WP>
+        </OP>
       </Points>
       <SectionHeader>CLUBS</SectionHeader>
       <Points>
@@ -156,7 +160,8 @@ function TechnicalPage() {
         </RP>
         <WP
           reply={
-            "Instructions by the Admin for no events for freshers before Jan. Might conduct a tech fun weekend in Jan later half if calendar allows, possibility that it might not be conducted this year because of other scheduled events in the upcoming semester"
+            <>
+              Club orientations done</>
           }
         >
           Conduct a <strong>tech fun weekend</strong> after the orientation to
@@ -177,15 +182,16 @@ function TechnicalPage() {
       </Points>
       <SectionHeader>INTER - IIT TECH MEET</SectionHeader>
       <Points>
-        <OP
+        <WP
           reply={
-            "Conducted an internal orientation for contingent leader and core group applicants. An inter IIT introductory video for all other students to be released soon"
+            <>
+              Booklet released, closing ceremony planned</>
           }
         >
           Conduct <strong>Inter-IIT Tech Orientation</strong> to spread
           awareness about what exactly happens, the selection procedure and to
           discuss the type of problem statements
-        </OP>
+        </WP>
         <RP>
           Ensure <strong>quick availability</strong> of resources by maintaining
           a database of equipment vendors from various domains, ensuring all the
@@ -223,15 +229,12 @@ function TechnicalPage() {
       </Points>
       <SectionHeader>HOSTEL TECH</SectionHeader>
       <Points>
-        <OP
-          reply={
-            "New structure proposed and released. But issues identified with the new structure and is not working well so will resort to the older one for this tenure"
-          }
+        <RP
         >
           Redesign the <strong>Technical General Championship (GC)</strong>{" "}
           contests to make them more welcoming to newcomers, and ensure club
           collaboration to establish the domain-specific problem statement
-        </OP>
+        </RP>
         <RP>
           Incentivize hostels to develop their <strong>Tech-room</strong> by
           allocating special points in Documentation GC and providing them with
@@ -268,15 +271,12 @@ function TechnicalPage() {
           Document step-by-step procedure for the reimbursement of bills to help
           council members
         </RP>
-        <OP
-          reply={
-            "Tech Points announced and released in ITC Freshie orientation. Mailing ad publicity about its use to begin towards end of December post fresher midsems"
-          }
+        <RP
         >
           Introduce the concept of <strong>Tech points</strong>, which can be
           redeemed against various tech equipment to incentivize students for
           continuously participating in tech activities
-        </OP>
+        </RP>
         <OP
           reply={
             "Ideation and plan done, implementation ongoing; waiting for estate office to complete the wall repair work post that furniture establishment will be done."
